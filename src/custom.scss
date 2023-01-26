@@ -5,7 +5,7 @@ $body-bg: #000;
 @import '~bootstrap/scss/bootstrap.scss';
 
 // fonts
-@import url("https://fonts.googleapis.com/css?family=Mulish:400,800");
+@import url("https://fonts.googleapis.com/css?family=Mulish:400,800|Exo+2");
 
 body {
   margin: 0;
@@ -13,11 +13,26 @@ body {
   //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   //   sans-serif;
   font-family: Mulish, 'Ubuntu', sans-serif;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  // margin: 0;
+  // height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page-title {
+  font-size: 1.2em;
+  display: inline-block;
+  border: 2px solid white;
+}
+
+.active-link {
+  font-weight: 600;
+  color: white;
 }

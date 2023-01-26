@@ -1,0 +1,22 @@
+.header {
+  font-weight: 800;
+}
+
+.subtext {
+  font-family: "Exo 2";
+}
+
+.illustration {
+  position: relative;
+  margin: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid white;
+  top: -10px;
+  left: -10px;
+  z-index: 10;
+}
